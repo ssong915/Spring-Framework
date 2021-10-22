@@ -7,4 +7,4 @@
 - **core**    
   - 김영한님  '스프링 핵심 원리 - 기본편' 수업 실습 
   - 실습 LINK : [스프링 핵심원리](https://github.com/ssong915/Spring-Framework/tree/main/core)
-  - 정리 LINK : [스프림 핵심원리 정리](https://github.com/ssong915/Spring-Framework/tree/main/notes)
+  - 정리 LINK : [스프림 핵심원리 정리](https://github.com/ssong915/Spring-Framework/tree/main/notes/기본)
