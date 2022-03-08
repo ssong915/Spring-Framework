@@ -5,25 +5,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Prac {
+    public static int countFruit(String given) {
+        List<String> fruits = new ArrayList<>();
+        fruits.add("수박");
+        fruits.add("메론");
+        fruits.add("수박");
+        fruits.add("딸기");
+        fruits.add("메론");
+        fruits.add("수박");
+        fruits.add("메론");
+        fruits.add("감");
+
+        int count = 0;
+        for (int i = 0; i < fruits.size(); i++) {
+            String fruit = fruits.get(i);
+            if (given == fruit) {
+                count += 1;
+            }
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
-        float c = 3.7f; // 소수는 뒤에 f 를 붙여주어야 함
-        Long d = 10000000001L; // 100억 이후는 Long
-        
-        int myAge = 22;
-        boolean isAdult = myAge > 22;
+        System.out.println(countFruit("메론"));
 
-        /* 리스트 */
-        // 리스트 선언
-        List<String> myList = new ArrayList<>();
-        String course1 = "웹개발종합반";
-        String course2 = "앱개발종합반";
-        // 리스트에 추가
-        myList.add(course1);
-        myList.add(course2);
-        // 리스트 출력
-        System.out.println(myList);
-        System.out.println(myList.get(1));
-        myList.remove(1);
-
-}
+    }
 }
