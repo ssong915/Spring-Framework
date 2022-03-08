@@ -10,6 +10,15 @@ public class Tutor {
     }
 
     private String name ;
+
+    public int getBio() {
+        return bio;
+    }
+
+    public void setBio(int bio) {
+        this.bio = bio;
+    }
+
     private int bio;
 
 }
