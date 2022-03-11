@@ -6,9 +6,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 import java.util.List;
 
+@EnableJpaAuditing //생성일자, 수정일자가 자동으로 업데이트 되기 위해 필요함.
 @SpringBootApplication
 public class Week02Application {
 
