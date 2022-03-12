@@ -13,4 +13,4 @@
 - **sparta_spring**    
   - 스파르타코딩클럽  '웹개발의 봄, Spring'
   - 실습 LINK : [웹개발의 봄](https://github.com/ssong915/Spring-Framework/tree/main/sparta_spring)
-  - 정리 LINK : [웹개발의 봄](https://github.com/ssong915/Spring-Framework/tree/main/sparta_spring)
+  - 정리 LINK : [웹개발의 봄](https://github.com/ssong915/Spring-Framework/blob/main/sparta_spring/README.md)
