@@ -25,7 +25,6 @@ public class MemoController {
         LocalDateTime end = LocalDateTime.now();
         return memoRepository.findAllByModifiedAtBetweenOrderByModifiedAtDesc(start, end);
     }
-    }
 
     @PostMapping("/api/memos")
     public Memo createMemo(@RequestBody MemoRequestDto requestDto) {
