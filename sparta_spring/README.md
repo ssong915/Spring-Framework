@@ -9,3 +9,7 @@
 2. [JPA, Repository](https://ssong915.tistory.com/26)   
 3. [API, Lombok, DTO](https://ssong915.tistory.com/27)
  
+## 3주차 공부노트
+1. [타임라인 서비스 서버 완성하기](https://ssong915.tistory.com/30)   
+2. [javascript, jQuery 기초](https://ssong915.tistory.com/31)   
+3. [타임라인 서비스 클라이언트 완성하기](https://ssong915.tistory.com/32)
