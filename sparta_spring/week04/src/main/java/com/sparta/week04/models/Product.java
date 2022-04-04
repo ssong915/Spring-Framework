@@ -4,8 +4,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-
-@Getter// get 함수를 일괄적으로 만들어줍니다.
+@Getter // get 함수를 일괄적으로 만들어줍니다.
 @NoArgsConstructor // 기본 생성자를 만들어줍니다.
 @Entity // DB 테이블 역할을 합니다.
 public class Product extends Timestamped{
@@ -30,4 +29,18 @@ public class Product extends Timestamped{
 
     @Column(nullable = false)
     private int myprice;
+
+    // 관심 상품 생성 시 이용할 생성자.
+    public Product(ProductRequestDto requestDto) {
+        this.title = requestDto.getTitle();
+        this.image = requestDto.getImage();
+        this.link = requestDto.getLink();
+        this.lprice = requestDto.getLprice();
+        this.myprice = 0;
+    }
+
+    // 수정시에 사용될 생성자
+    public void update(ProductMypriceRequestDto requestDto) {
+        this.myprice = requestDto.getMyprice();
+    }
 }
