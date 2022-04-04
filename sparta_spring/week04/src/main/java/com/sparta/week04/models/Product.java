@@ -1,6 +1,6 @@
 package com.sparta.week04.models;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
