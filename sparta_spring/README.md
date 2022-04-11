@@ -13,3 +13,8 @@
 1. [타임라인 서비스 서버 완성하기](https://ssong915.tistory.com/30)   
 2. [javascript, jQuery 기초](https://ssong915.tistory.com/31)   
 3. [타임라인 서비스 클라이언트 완성하기](https://ssong915.tistory.com/32)
+
+## 4주차 공부노트
+1. [네이버 쇼핑 API 이용하기](https://ssong915.tistory.com/36)   
+2. [<나만의 셀렉샵> 서버](https://ssong915.tistory.com/37)   
+3. [<나만의 셀렉샵> 클라이언트](https://ssong915.tistory.com/38)
